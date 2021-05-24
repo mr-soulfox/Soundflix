@@ -65,7 +65,7 @@ body {
 .film-container {
   width: 100vw;
   height: 600px;
-  background-image: url(../../assets/img/placeholder.jpg);
+  background-image: url(../assets/img/placeholder.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
