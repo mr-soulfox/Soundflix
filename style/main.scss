@@ -1,0 +1,23 @@
+/*TEXT FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400;700&display=swap&family=Roboto:wght@500&display=swap');
+
+/*RESET*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/*DEFAULT*/
+body {
+    background-color: #282a36;
+    overflow-x: hidden;
+}
+
+/*IMPORT*/
+@import './sass/header';
+@import './sass/film';
+@import './sass/query';

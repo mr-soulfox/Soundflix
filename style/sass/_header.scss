@@ -1,0 +1,34 @@
+.header-container {
+    height: 80px;
+    background-color: #44475a;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    & > .logo a {
+        font-size: 2.5rem;
+        font-family: "Bebas Neue";
+        color: #50fa7b;
+        transition-duration: 0.2s;
+        
+        &:hover {
+            color: darken($color: #50fa7b, $amount: 10);
+        }
+    }
+
+    & > .menu nav {
+        & a {
+            color: #f8f8f2;
+            font-size: 1.3rem;
+            margin: 15px;
+            font-family: "Roboto";
+            transition-duration: 0.2s;
+
+            &:hover {
+                color: darken($color: #fff, $amount: 15);
+            }
+        }
+    }
+}
